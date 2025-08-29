@@ -12,5 +12,81 @@
     <h4>Heading 4</h4>
     <h5>Heading 5</h5>
     <h6>Heading 6</h6>
+
+      <style>
+    th,td {
+      border-radius: 5px;
+      border-style: solid;
+      border-color: black;
+      padding: 10px;
+      text-align: center;
+      text-shadow: 1px 1px 2px rgb(156, 96, 96);
+    }
+
+   td:hover {
+    background-color: aqua;
+  }
+    /* td:nth-child(even) { */
+
+tr:nth-child(even) {
+  background-color: rgb(201, 201, 201);
+}
+  </style>
+
+    <table border="1" width="400">
+      <!-- difine table caption to tell about for what the table is -->
+
+      <caption>
+        Student Grades
+      </caption>
+      <tr>
+        <th>serial number</th>
+        <th>Name</th>
+        <th>Grade</th>
+      </tr>
+      <tr>
+        <td>1</td>
+        <td>Alice</td>
+        <td>90</td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>Bob</td>
+        <td>85</td>
+      </tr>
+
+      <tr>
+        <td>3</td>
+        <td>Ayush</td>
+        <td>95</td>
+      </tr>
+    </table>
+
+     <h2>unordered list</h2>
+    <!-- list mai difference symentic ka hota hai na ki 1 2 aa rha ya bulet aa rha ordered ki symentic jyada hote hai ul sai symentic mtlab prefrence  -->
+    <ul>
+      <li>Ayush</li>
+      <li>kushwaha</li>
+      <li>cse</li>
+    </ul>
+    <hr />
+    <h2>ordered list</h2>
+
+    process of making maggi
+    <ol>
+      <li>pani garam kro</li>
+      <li>masala dalo</li>
+      <li>maggi dalo</li>
+    </ol>
+    <hr />
+    <h2>dicsiprtion list</h2>
+    <dl>
+      <dt>HTML</dt>
+      <!-- data term -->
+      <dd>HyperText Markup Language</dd>
+      <!-- data term's discription-->
+      <dt>CSS</dt>
+      <dd>Cascading Style Sheets</dd>
+    </dl>
 </body>
 </html>
