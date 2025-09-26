@@ -50,6 +50,42 @@ nav ul li a {
   font-weight: bold;
 }
 
+nav a:hover {
+  color: #4a90e2;
+}
+
+/* Dropdown */
+.dropdown-menu {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background: #333;
+  padding: 10px 0;
+  list-style: none;
+  min-width: 180px;
+  border-radius: 6px;
+}
+
+.dropdown-menu li {
+  padding: 8px 15px;
+}
+
+.dropdown-menu li a {
+  color: #fff;
+  display: block;
+}
+
+.dropdown-menu li a:hover {
+  background: #4a90e2;
+  border-radius: 4px;
+}
+
+/* Show dropdown on hover */
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
 /* Prevent content from hiding under navbar */
 body {
   padding-top: 60px;
